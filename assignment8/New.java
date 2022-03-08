@@ -6,10 +6,10 @@ public class New {
         int b = 2;
         
         try{
-            if(arg.equals("Husain")){
-                throw new NameException("Name is Husain");
+            if(arg.equals("Asish")){
+                throw new NameException("Name should be Asish");
             }
-            System.out.println("Hello "+arg);
+            System.out.println("Hi "+arg);
             
             if(b==1){throw new DivideByOne();}
             System.out.println(a/b);
