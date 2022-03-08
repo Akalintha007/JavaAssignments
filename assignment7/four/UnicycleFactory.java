@@ -1,0 +1,11 @@
+package assignment7.four;
+
+public class UnicycleFactory implements CycleFactory{
+
+    @Override
+    public Cycle getCycle() {
+        
+        return new Unicycle();
+    }
+    
+}
